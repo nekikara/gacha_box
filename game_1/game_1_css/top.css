@@ -15,6 +15,14 @@ button{
   border-radius: 20px 20px 20px 20px ;
 }
 
+button:hover{
+  color: #ffffff;
+}
+
+button:active{
+  box-shadow: -3px -3px 3px #d9ff66 inset;
+}
+
 div{
   text-align: center;
 }

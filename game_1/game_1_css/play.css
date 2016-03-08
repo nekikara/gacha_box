@@ -1,0 +1,226 @@
+.score_board{
+  width: 500px;
+  height: 140;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.circle{
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  font-size: 60pt;
+  margin-right: 40px;
+}
+
+.score1{
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  font-size: 60pt;
+  margin-right: 20px;
+}
+
+.vs{
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  font-size: 25pt;
+  margin-right: 20px;
+}
+
+.score2{
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  font-size: 60pt;
+  margin-right: 40px;
+}
+
+.cross{
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  font-size: 50pt;
+}
+
+.game_board{
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+  font-size: 40pt;
+}
+
+.hline_1{
+  position: absolute;
+  top: 33%;
+  width: 300px;
+  height: 5px;
+  background: #000066;
+}
+
+.hline_2{
+  position: absolute;
+  top: 66%;
+  width: 300px;
+  height: 5px;
+  background: #000066;
+}
+
+.vline_1{
+  position: absolute;
+  left: 33%;
+  width: 5px;
+  height: 300px;
+  background: #000066;
+}
+
+.vline_2{
+  position: absolute;
+  left: 66%;
+  width: 5px;
+  height: 300px;
+  background: #000066;
+}
+
+.row1{
+  width: 300px;
+  height: 100px
+}
+
+.row2{
+  width: 300px;
+  height: 100px
+}
+
+.row3{
+  width: 300px;
+  height: 100px
+}
+
+.cell1{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.cell2{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.cell3{
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  height: 100px;
+  position: relative;
+}
+
+.cell4{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.cell5{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.cell6{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.cell7{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.cell8{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.cell9{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.close{
+  text-align: center;
+  margin-top: 50px;
+}
+
+button{
+  font-weight: bold;
+  padding: 10px 30px;
+  background: #ff3399;
+  color: #ffffff;
+  box-shadow: 2px 2px 3px 1px #666666;
+}
+
+button:hover{
+  color: #000000;
+  cursor: pointer;
+
+}
+
+button:active{
+  color: #000000;
+  box-shadow: -4px -4px 3px 1px #666666;
+}
+
+.maru{
+  position:absolute;
+  top: 5%;
+  left: 5%;
+  width: 70px;
+  height: 70px;
+  border: 5px solid #000000;
+  border-radius: 50%;
+}
+
+.batu{
+  position: absolute;
+  top: 45%;
+  left: 13%;
+  width: 80px;
+  height: 5px;
+  background: #000000;
+  transform: rotate(45deg);
+}
+
+.batu:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  transform: rotate(90deg);
+}
