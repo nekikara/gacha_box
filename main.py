@@ -2,9 +2,14 @@ import os
 import tornado.ioloop
 import tornado.web
 
-class MainHandler(tornado.web.RequestHandler):
+class StartHandler(tornado.web.RequestHandler):
     def get(self):
         self.render("index.html")
+
+class PlayHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.render("play.html")
+
 
 def make_app():
     settings = dict(
@@ -14,8 +19,10 @@ def make_app():
     )
     return tornado.web.Application(
         handlers=[
-            (r"/", MainHandler),
+            (r"/", StartHandler),
+            (r"/play", PlayHandler),
         ],
+        autoreload=True,
         **settings
     )
 

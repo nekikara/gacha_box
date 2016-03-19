@@ -1,6 +1,6 @@
 "use strict";
 $(function() {
-  $('.brand-name').on('click', function(){
-    alert('BRAND');
+  $('.start-btn').on('click', function(){
+    location.href = '/play';
   });
 });
